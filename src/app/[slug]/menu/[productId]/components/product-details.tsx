@@ -63,7 +63,7 @@ const ProductDetails = ({product}: IProductDetails) => {
               <Button
                 variant="outline"
                 className="h-8 w-8 rounded-xl"
-                onClick={handleIncrement}
+                onClick={handleDecrement}
               >
                 <ChevronLeftIcon />
               </Button>
@@ -71,7 +71,7 @@ const ProductDetails = ({product}: IProductDetails) => {
               <Button
                 variant="destructive"
                 className="h-8 w-8 rounded-xl"
-                onClick={handleDecrement}
+                onClick={handleIncrement}
               >
                 <ChevronRightIcon />
               </Button>
