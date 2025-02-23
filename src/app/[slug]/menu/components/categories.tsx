@@ -45,11 +45,11 @@ const RestaurantCategories = ({restaurant}: IRestaurantCategoriesProps) => {
                     />
                     <div>
                         <h2 className="text-lg font-semibold">{restaurant.name}</h2>
-                        <p className="text-sm opacity-55">{restaurant.description}</p>
+                        <p className="text-xs opacity-55">{restaurant.description}</p>
                     </div>
                 </div>
-                <div className="flex items-center gap-1 text-xs text-green-500 mt-3">
-                    <ClockIcon />
+                <div className="mt-3 flex items-center gap-1 text-xs text-green-500">
+                    <ClockIcon size={12} />
                     <p>Aberto!</p>
                 </div>
             </div>
