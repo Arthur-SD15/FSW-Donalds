@@ -16,7 +16,7 @@ const RestaurantPage = async ({params}: IRestaurantPageProps) => {
     })
 
     if(!restaurant){
-        return notFound
+        return notFound();
     }
 
     return (
